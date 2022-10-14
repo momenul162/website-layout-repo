@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-album {
+            position: relative;
+            margin: 10px;
+        }
+
+        .photo-frame {
+            height: 235px;
+            width: 350px;
+            border: 3px solid lightcoral;
+            border-radius: 10px;
+        }
+
+        .photo-frame:hover .photo-details {
+            display: block;
+            background-color: rgba(241, 187, 52, 0.3);
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-details {
+            position: absolute;
+            width: 350px;
+            top: 0;
+            display: none;
+        }
+
+        .photo-details h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .photo-details p {
+            color: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center; font-size: 40px;">Let's start Photo Album</h2>
+    <section>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>tiger photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/bird.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>bird photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/butterfly.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>butterfly photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/dove.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>dove photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/dolphin.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>dolphin photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/fox.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>fox photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/kingfisher.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>kingfisher photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/ladybugs.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>ladybugs photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/parrot.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>parrot photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/rabbit.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>rabbit photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>Tiger photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/ice-cream.jpg" alt="">
+                    <div class="photo-details">
+                        <h3>ice-cream photo candid</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aliquam ullam facere
+                            accusantium? Rem aut rerum incidunt, neque, quos nisi voluptatibus odit minima voluptas
+                            illum, voluptatum quod sit laborum atque veniam tempore dolorum corporis repudiandae nemo
+                            molestiae qui. Ex, quos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

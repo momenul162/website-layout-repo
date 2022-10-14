@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4a24423a1c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .login-form input,
+        button {
+            font-size: 1.2em;
+            margin-top: 15px;
+            border: 1px solid gray;
+        }
+
+        .login-form button {
+            background-color: lightcoral;
+            color: white;
+            font-weight: 700;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 1.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Service</a>
+                <a href="">Products</a>
+                <a href="">About us</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-sharp fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-sharp fa-solid fa-arrow-right-from-bracket"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h2>Login</h2>
+            <input type="email" name="email" placeholder="Type Email" id="">
+            <input type="password" name="password" placeholder="Type Password" id="">
+            <button type="submit">Login</button>
+        </form>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 500px;
+            border: 3px dashed black;
+            display: flex;
+            justify-content: first baseline;
+            align-items: stretch;
+        }
+
+        .box {
+            width: 100px;
+            font-size: 2em;
+            border: 2px dotted darkmagenta;
+        }
+
+        #box-3 {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Flexbox Website</h1>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div id="box-3" class="box">box-3</div>
+
+    </div>
+</body>
+
+</html>
